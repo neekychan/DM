@@ -46,7 +46,7 @@
 	display: block;
 	height: 36px;
 	line-height: 36px;
-	background: #e6e6fa;
+	background: #EEEEEE;
 	text-indent: 10px;
 }
 
@@ -58,4 +58,9 @@
 #wrap .app dl dd {
 	padding: 10px;
 	float: left;
+}
+
+input[type=submit] {
+	margin-left: 3%;
+	cursor: pointer;
 }

@@ -66,6 +66,34 @@
 
 		public function access() {
 			$rid = I('rid',0,'intval');
+
+			$this->node = node_merge(M('node')->order('sort')->select());
+			//dump($this->node);
+			$this->rid = $rid;
+			$this->display();
+		}
+
+		public function setAccess() {
+			//dump($_POST);
+			$rid = I('post.rid',0,'intval');
+			$data = array();
+			foreach (I('post.access') as $v) {
+				$tmp = explode('_', $v);
+				$data[] = array(
+					'role_id' => $rid,
+					'node_id' => $tmp[0],
+					'level' => $tmp[1],
+					);
+			}
+
+			//p($data);
+			M('access')->where(array('role_id' => $rid))->delete();
+			$result = M('access')->addAll($data);
+			if($result) {
+				$this->success('修改成功',U('Admin/Rbac/role'));
+			} else {
+				$this->success('修改失败',U('Admin/Rbac/role'));
+			}
 		}
 	}
  ?>

@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/Public.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/node.css">
+	<script type="text/javascript" src='__PUBLIC__/Js/jquery.min.js'>
+	</script>
+	<script type="text/javascript">
+		$(function(){
+			$("input[level=1]").click(function(){
+				var inputs = $(this).parents('.app').find('input');
+				$(this).attr('checked') ? inputs.attr('checked','checked') : inputs.removeAttr('checked');
+			});
+
+			$("input[level=2]").click(function(){
+				var inputs = $(this).parents('dl').find('input');
+				$(this).attr('checked') ? inputs.attr('checked','checked') : inputs.removeAttr('checked');
+			});
+
+		});
+	</script>
+</head>
+<body>
+	<form action="{:U('Admin/Rbac/setAccess')}" method='post'>
+		<div id="wrap">
+			<a href="{:U('Admin/Rbac/node')}" class='add-app'>返回</a>
+
+			<foreach name='node' item='app'>
+				<div class='app'>
+					<p>
+						<strong>{$app.title}</strong>
+						<input type='checkbox' name='access[]' value="{$app['id']}_1" level='1'>
+					</p>
+
+					<foreach name='app.child' item='action'>
+						<dl>
+							<dt>
+								<strong>{$action['title']}</strong>
+								<input type='checkbox' name='access[]' value="{$action['id']}_2" level='2'>
+							</dt>
+
+							<foreach name='action.child' item='method'>
+								<dd>
+									<span>{$method['title']}</span>
+									<input type='checkbox' name='access[]' value="{$method['id']}_3" level='3'>
+								</dd>
+							</foreach>
+
+						</dl>	
+					</foreach>
+				</div>
+			</foreach>
+		</div>
+		<input type='hidden' name='rid' value='{$rid}'>
+		<input type='submit' value='保存设置'>
+	</form>
+</body>
+</html>

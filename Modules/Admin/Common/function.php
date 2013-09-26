@@ -12,4 +12,8 @@
 
 		return $arr;
 	}
+
+	function p($obj) {
+		dump($obj);
+	}
  ?>

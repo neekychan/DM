@@ -10,13 +10,13 @@
 				<th colspan='2'>添加节点</th>
 			</tr>
 			<tr>
-				<td align='right'>应用名称:</td>
+				<td align='right'><?php echo ($title); ?>名称:</td>
 				<td>
 					<input type='text' name='name'>
 				</td>
 			</tr>
 			<tr>
-				<td align='right'>应用描述:</td>
+				<td align='right'><?php echo ($title); ?>描述:</td>
 				<td><input type='text' name='title'></td>
 			</tr>
 			<tr>
@@ -32,8 +32,8 @@
 			</tr>
 			<tr>
 				<td colspan='2' align='center'>
-					<input type='hidden' name='pid' value='0'>
-					<input type='hidden' name='level' value='1'>
+					<input type='hidden' name='pid' value="<?php echo ($pid); ?>">
+					<input type='hidden' name='level' value="<?php echo ($level); ?>">
 					<input type='submit' value='添加'>
 				</td>
 			</tr>
