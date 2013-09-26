@@ -1,6 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?><html>
 <head>
-	<title></title>
+	<title>角色列表</title>
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/public.css">
 </head>
 <body>
@@ -22,7 +22,7 @@
 						<?php else: ?>
 						关闭<?php endif; ?>
 				</td>
-				<td>删除</td>
+				<td><a href="<?php echo U('Admin/Rbac/access',array('rid'=>$v['id']));?>">配置权限</a></td>
 			</tr><?php endforeach; endif; ?>
 	</table>
 </body>

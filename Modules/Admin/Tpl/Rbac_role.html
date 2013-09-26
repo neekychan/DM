@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title></title>
+	<title>角色列表</title>
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/public.css">
 </head>
 <body>
@@ -25,7 +25,7 @@
 						关闭
 					</if>
 				</td>
-				<td>删除</td>
+				<td><a href="{:U('Admin/Rbac/access',array('rid'=>$v['id']))}">配置权限</a></td>
 			</tr>
 		</foreach>
 	</table>

@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <base target="iframe"/>
 <head>
+	<title>点卖网</title>
 </head>
 <body>
 	<div id="top">
@@ -37,9 +38,10 @@
 			<dt>RBAC管理</dt>
 			<dd><a href="#">用户列表</a></dd>
 			<dd><a href="<?php echo U('Admin/Rbac/role');?>">角色列表</a></dd>
+			<dd><a href="<?php echo U('Admin/Rbac/node');?>">节点列表</a></dd>
 			<dd><a href="#">添加用户</a></dd>
 			<dd><a href="<?php echo U('Admin/Rbac/addRole');?>">添加角色</a></dd>
-			<dd><a href="#">添加节点</a></dd>
+			<dd><a href="<?php echo U('Admin/Rbac/addNode');?>">添加节点</a></dd>
 		</dl>
 		<dl>
 			<dt>功能标题</dt>
