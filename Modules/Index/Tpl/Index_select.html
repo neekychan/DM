@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>{$data.id}--{$data.username}</h1>
+	<h2><present name="data.name">id已经赋值<else /> id还没有赋值</present></h2>
+	<if condiction='$data[data.username] eq administrator'>
+		你的等级为管理员。
+	</if>
+</body>
+</html>

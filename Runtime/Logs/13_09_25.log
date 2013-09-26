@@ -1,0 +1,1323 @@
+[ 2013-09-25T12:55:17+08:00 ] 0.0.0.0 /DM/index.php/Info/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+
+[ 2013-09-25T12:55:17+08:00 ] 0.0.0.0 /DM/index.php/Index/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Constant THEME_NAME already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004655s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000206s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2013-09-25T12:55:19+08:00 ] 0.0.0.0 /DM/index.php/Index/Index/verify?username=&password=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004682s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = '' ) LIMIT 1   [ RunTime:0.000360s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004812s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000208s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000186s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2013-09-25T12:55:22+08:00 ] 0.0.0.0 /DM/index.php/Index/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Constant THEME_NAME already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004734s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000239s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000175s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000199s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001084s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000182s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2013-09-25T12:55:25+08:00 ] 0.0.0.0 /DM/index.php/Index/Index/verify?username=admin&password=admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001903s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000507s ]
+SQL: UPDATE `think_user` SET `logintime`=1380084925,`loginip`='0.0.0.0' WHERE ( `id` = 7 ) [ RunTime:0.000669s ]
+
+[ 2013-09-25T12:55:25+08:00 ] 0.0.0.0 /DM/index.php/Info/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003370s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000178s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000162s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2013-09-25T12:55:29+08:00 ] 0.0.0.0 /DM/index.php/Info/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+
+[ 2013-09-25T12:55:29+08:00 ] 0.0.0.0 /DM/index.php/Index/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Constant THEME_NAME already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000187s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000166s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2013-09-25T12:55:36+08:00 ] 0.0.0.0 /DM/index.php/Info/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+
+[ 2013-09-25T12:55:36+08:00 ] 0.0.0.0 /DM/index.php/Index/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Constant THEME_NAME already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004049s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000230s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000180s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002678s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2013-09-25T14:40:58+08:00 ] 0.0.0.0 /DM/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+
+[ 2013-09-25T14:41:01+08:00 ] 0.0.0.0 /DM/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+
+[ 2013-09-25T14:45:39+08:00 ] 0.0.0.0 /DM/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+
+[ 2013-09-25T14:45:48+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+
+[ 2013-09-25T14:46:23+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004881s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000421s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001985s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2013-09-25T14:46:24+08:00 ] 0.0.0.0 /DM/index.php/Admin/Js/jquery-1.7.2.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000180s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Js
+
+[ 2013-09-25T14:46:24+08:00 ] 0.0.0.0 /DM/index.php/Admin/Css/public.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Css
+
+[ 2013-09-25T14:46:24+08:00 ] 0.0.0.0 /DM/index.php/Admin/Js/index.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Js
+
+[ 2013-09-25T14:46:24+08:00 ] 0.0.0.0 /DM/index.php/Admin/Css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:Css
+
+[ 2013-09-25T14:46:24+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027920s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001041s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003018s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000119s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005432s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2013-09-25T14:46:24+08:00 ] 0.0.0.0 /DM/index.php/Admin/Css/public.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+ERR: 无法加载模块:Css
+
+[ 2013-09-25T14:46:24+08:00 ] 0.0.0.0 /DM/index.php/Admin/Js/jquery-1.7.2.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载模块:Js
+
+[ 2013-09-25T14:46:24+08:00 ] 0.0.0.0 /DM/index.php/Admin/Css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004082s ]
+ERR: 无法加载模块:Css
+
+[ 2013-09-25T14:46:24+08:00 ] 0.0.0.0 /DM/index.php/Admin/Js/index.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002999s ]
+ERR: 无法加载模块:Js
+
+[ 2013-09-25T14:53:11+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006156s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000247s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000180s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000110s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000262s ]
+
+[ 2013-09-25T14:53:11+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009463s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000182s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000718s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2013-09-25T14:53:44+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000242s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000177s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000208s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2013-09-25T14:53:45+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004870s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000400s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000174s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2013-09-25T14:56:50+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005112s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000211s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2013-09-25T14:57:25+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003445s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006050s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000249s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000194s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000119s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000215s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2013-09-25T14:57:38+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004716s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000213s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000172s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000185s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2013-09-25T15:32:00+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000215s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2013-09-25T15:32:04+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+
+[ 2013-09-25T15:32:11+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+
+[ 2013-09-25T15:32:32+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000192s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004957s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000234s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000181s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000268s ]
+
+[ 2013-09-25T15:32:35+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005983s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000212s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2013-09-25T15:34:38+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004921s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000218s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000177s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2013-09-25T15:34:41+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009256s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000181s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2013-09-25T15:34:42+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003457s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000200s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000165s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2013-09-25T15:35:08+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006449s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000242s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2013-09-25T15:35:11+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014622s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000523s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000266s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003732s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005061s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2013-09-25T15:35:11+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000554s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003560s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000202s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000166s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2013-09-25T15:59:09+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003867s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000194s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2013-09-25T15:59:12+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRoleHandle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+
+[ 2013-09-25T16:16:01+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005386s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000244s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000182s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2013-09-25T16:16:01+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004170s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000630s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000181s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001390s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2013-09-25T16:16:10+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRoleHandle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000198s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.002192s ]
+
+[ 2013-09-25T16:17:09+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000180s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000292s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000179s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000124s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000191s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2013-09-25T16:17:09+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003795s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000194s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000165s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2013-09-25T16:17:16+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRoleHandle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000231s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.004266s ]
+
+[ 2013-09-25T16:17:29+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000213s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2013-09-25T16:17:30+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003770s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000179s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000180s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2013-09-25T16:17:36+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRoleHandle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.001876s ]
+
+[ 2013-09-25T16:18:34+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004927s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000238s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000180s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2013-09-25T16:18:35+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004388s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000338s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000182s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000185s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2013-09-25T16:18:41+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRoleHandle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.037302s ]
+
+[ 2013-09-25T16:21:19+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000215s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004971s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000231s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000178s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000175s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2013-09-25T16:21:29+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRoleHandle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.002497s ]
+
+[ 2013-09-25T16:23:33+08:00 ] 0.0.0.0 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004928s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000205s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2013-09-25T16:23:35+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003977s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000230s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000175s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000257s ]
+
+[ 2013-09-25T16:23:40+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRoleHandle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000198s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.002444s ]
+SQL: INSERT INTO `think_role` (`name`,`remark`,`status`) VALUES ('admin','管理员',1) [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004508s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000219s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000180s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000170s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2013-09-25T16:23:41+08:00 ] 0.0.0.0 /DM/index.php/Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007691s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000216s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000246s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2013-09-25T17:17:31+08:00 ] 127.0.0.1 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006230s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000231s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000172s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2013-09-25T17:17:32+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+
+[ 2013-09-25T17:17:57+08:00 ] 127.0.0.1 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007010s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000386s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000179s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001144s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2013-09-25T17:17:59+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.001972s ]
+SQL: SELECT * FROM `think_role`  [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:18:23+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000180s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.084238s ]
+SQL: SELECT * FROM `think_role`  [ RunTime:0.000200s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:20:54+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.002573s ]
+SQL: SELECT * FROM `think_role`  [ RunTime:0.000168s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:20:55+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.002253s ]
+SQL: SELECT * FROM `think_role`  [ RunTime:0.000207s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:20:55+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.006756s ]
+SQL: SELECT * FROM `think_role`  [ RunTime:0.002429s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:20:55+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000192s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.001751s ]
+SQL: SELECT * FROM `think_role`  [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:21:18+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:21:19+08:00 ] 127.0.0.1 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005545s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000253s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000182s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001252s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002269s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000189s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2013-09-25T17:21:20+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:22:08+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+
+[ 2013-09-25T17:22:27+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:22:50+08:00 ] 127.0.0.1 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005231s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000211s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2013-09-25T17:22:52+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000173s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:22:52+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000232s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:23:21+08:00 ] 127.0.0.1 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007169s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000203s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000170s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000262s ]
+
+[ 2013-09-25T17:25:29+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000192s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.003251s ]
+SQL: SELECT * FROM `think_role`  [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003054s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000227s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000186s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2013-09-25T17:25:37+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.002700s ]
+SQL: SELECT * FROM `think_role`  [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:26:02+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.001997s ]
+SQL: SELECT * FROM `think_role`  [ RunTime:0.000202s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005654s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000215s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000173s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000179s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2013-09-25T17:26:22+08:00 ] 127.0.0.1 /DM/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009099s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000238s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2013-09-25T17:26:25+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.009732s ]
+SQL: SELECT * FROM `think_role`  [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 158 行.
+
+[ 2013-09-25T17:26:48+08:00 ] 127.0.0.1 /DM/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `think_role` [ RunTime:0.002348s ]
+SQL: SELECT * FROM `think_role`  [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006649s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000224s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000180s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001261s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002592s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000200s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000296s ]
+

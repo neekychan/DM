@@ -1,0 +1,655 @@
+[ 2013-09-18T08:56:29+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000247s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001950s ]
+SQL: SELECT * FROM `think_user` WHERE ( username = "admin" )  [ RunTime:0.000267s ]
+ERR: 模板不存在[/Applications/MAMP/htdocs/DM/Tpl/Index/select.html]
+
+[ 2013-09-18T08:56:47+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003140s ]
+SQL: SELECT * FROM `think_user` WHERE ( username = "admin" )  [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004546s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000277s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000276s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2013-09-18T09:04:40+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000192s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002576s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` LIKE '%admin%' )  [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003084s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000190s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2013-09-18T09:05:13+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000218s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.094640s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` LIKE '%admin%' )  [ RunTime:0.000332s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004622s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000197s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000213s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000129s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000208s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2013-09-18T09:05:38+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002332s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` LIKE '%admin%' )  [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 21 行.
+
+[ 2013-09-18T09:07:08+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002354s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` LIKE '%admin%' )  [ RunTime:0.000355s ]
+
+[ 2013-09-18T09:07:12+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000180s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002313s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` LIKE '%admin%' )  [ RunTime:0.000307s ]
+
+[ 2013-09-18T09:07:25+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002198s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` LIKE '%admin%' )  [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004185s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000204s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000128s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001367s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000204s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2013-09-18T09:07:35+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002429s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` LIKE '%admin%' )  [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005728s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000729s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000282s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000129s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001674s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php:20) /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php:20) /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php:20) /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000269s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2013-09-18T09:07:59+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002642s ]
+SQL: SELECT `username` FROM `think_user` WHERE ( `username` LIKE '%admin%' ) LIMIT 1   [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003815s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000204s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000192s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000120s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php:20) /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php:20) /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php:20) /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000209s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2013-09-18T09:11:51+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002464s ]
+SQL: SELECT `username` FROM `think_user` WHERE ( `username` LIKE '%admin%' ) LIMIT 1   [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005240s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000288s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000214s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000111s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001238s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2013-09-18T09:34:57+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002384s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004434s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000211s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000192s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000218s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2013-09-18T09:35:55+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000217s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002273s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003176s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000180s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000092s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000159s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2013-09-18T09:43:28+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000198s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002345s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 )  [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003355s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000185s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000092s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2013-09-18T09:44:13+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002611s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000267s ]
+
+[ 2013-09-18T09:51:06+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002543s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000237s ]
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 20 行.
+
+[ 2013-09-18T09:51:13+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002669s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000574s ]
+NOTIC: [8] Undefined index: id /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 20 行.
+
+[ 2013-09-18T09:56:55+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.192893s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.001200s ]
+
+[ 2013-09-18T09:57:13+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000208s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002382s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000248s ]
+
+[ 2013-09-18T09:57:36+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002185s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000254s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000160s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2013-09-18T10:00:05+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002610s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Trying to get property of non-object /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+NOTIC: [8] Trying to get property of non-object /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 6 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003304s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000202s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000163s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000159s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2013-09-18T10:00:15+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002225s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000182s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000383s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2013-09-18T11:22:09+08:00 ] 0.0.0.0 /DM/index.php/Index/create/username/neekychan/password/123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000278s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001733s ]
+SQL: INSERT INTO `think_user` (`username`,`password`) VALUES ('neekychan','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.001057s ]
+
+[ 2013-09-18T11:29:17+08:00 ] 0.0.0.0 /DM/index.php/Index/login/username/neekychan/password/123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002958s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001803s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'neekychan' ) LIMIT 1   [ RunTime:0.007021s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 66 行.
+
+[ 2013-09-18T11:34:43+08:00 ] 0.0.0.0 /DM/index.php/Index/login/username/neekychan/password/123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002376s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'neekychan' ) LIMIT 1   [ RunTime:0.000292s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 66 行.
+
+[ 2013-09-18T11:34:50+08:00 ] 0.0.0.0 /DM/index.php/Index/login/username/neekychan/password/123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002880s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'neekychan' ) LIMIT 1   [ RunTime:0.000263s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 66 行.
+
+[ 2013-09-18T11:37:39+08:00 ] 0.0.0.0 /DM/index.php/Index/login/username/neekychan/password/123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000247s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002383s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'neekychan' ) LIMIT 1   [ RunTime:0.000367s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 66 行.
+
+[ 2013-09-18T11:37:43+08:00 ] 0.0.0.0 /DM/index.php/Index/login/username/neekychan/password/1234567
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003259s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'neekychan' ) LIMIT 1   [ RunTime:0.000538s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 66 行.
+
+[ 2013-09-18T11:37:49+08:00 ] 0.0.0.0 /DM/index.php/Index/login/username/neekychan/password/1234566
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004043s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'neekychan' ) LIMIT 1   [ RunTime:0.000346s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 66 行.
+
+[ 2013-09-18T11:37:53+08:00 ] 0.0.0.0 /DM/index.php/Index/login/username/neekychan/password/123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001884s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'neekychan' ) LIMIT 1   [ RunTime:0.000300s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 66 行.
+
+[ 2013-09-18T11:37:58+08:00 ] 0.0.0.0 /DM/index.php/Index/login/username/admin/password/123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000216s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002878s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000306s ]
+
+[ 2013-09-18T14:49:19+08:00 ] 0.0.0.0 /DM/index.php/Index/select/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000279s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.046871s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000470s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: birthday /Applications/MAMP/htdocs/DM/Runtime/Cache/aa91bcb722c609082d3fb8f4dc630f95.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004151s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2013-09-18T16:31:36+08:00 ] 0.0.0.0 /DM/index.php/Index/select/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000233s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002354s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /Applications/MAMP/htdocs/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 510 行.
+
+[ 2013-09-18T16:39:14+08:00 ] 0.0.0.0 /DM/index.php/Index/select/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002009s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /Applications/MAMP/htdocs/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 510 行.
+
+[ 2013-09-18T17:13:44+08:00 ] 0.0.0.0 /DM/index.php/Index/select/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002032s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /Applications/MAMP/htdocs/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 510 行.
+
+[ 2013-09-18T17:18:35+08:00 ] 0.0.0.0 /DM/index.php/Index/select/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000270s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002679s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+
+[ 2013-09-18T17:19:05+08:00 ] 0.0.0.0 /DM/index.php/Index/select/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003227s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000596s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003887s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000286s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000234s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000167s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001230s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2013-09-18T17:19:17+08:00 ] 0.0.0.0 /DM/index.php/Index/select/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001894s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003694s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000160s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000092s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2013-09-18T17:19:19+08:00 ] 0.0.0.0 /DM/index.php/Index/select/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002410s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003603s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000186s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000155s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000088s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2013-09-18T17:19:27+08:00 ] 0.0.0.0 /DM/index.php/Index/select/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002542s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = '1' )  [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004945s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000215s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000194s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000209s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000304s ]
+

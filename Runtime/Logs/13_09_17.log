@@ -1,0 +1,400 @@
+[ 2013-09-17T09:24:24+08:00 ] 0.0.0.0 /DM/index.php/Index/create
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.038703s ]
+INFO: [ route_check ] --END-- [ RunTime:0.039027s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) /Applications/MAMP/htdocs/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2013-09-17T09:26:05+08:00 ] 0.0.0.0 /DM/index.php/Index/create
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001383s ]
+ERR: 1146:Table 'ThinkPHP.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/Model.class.php 第 821 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Applications/MAMP/htdocs/ThinkPHP/Lib/Core/Model.class.php 第 821 行.
+
+[ 2013-09-17T09:26:38+08:00 ] 0.0.0.0 /DM/index.php/Index/create
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002459s ]
+SQL: INSERT INTO `think_user` (`username`,`password`) VALUES ('admin','admin') [ RunTime:0.001831s ]
+
+[ 2013-09-17T10:07:03+08:00 ] 0.0.0.0 /DM/index.php/Index/find/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Undefined variable: User /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 22 行.
+
+[ 2013-09-17T10:07:20+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000477s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.033274s ]
+SQL: SELECT * FROM `think_user` WHERE ( username = admin )  [ RunTime:0.000239s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_user` WHERE ( username = admin ) 
+
+[ 2013-09-17T10:07:52+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000356s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004474s ]
+SQL: SELECT * FROM `think_user` WHERE ( username = "admin" )  [ RunTime:0.000297s ]
+
+[ 2013-09-17T10:13:41+08:00 ] 0.0.0.0 /DM/index.php/Index/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004690s ]
+SQL: SELECT * FROM `think_user` WHERE ( username = "admin" )  [ RunTime:0.000393s ]
+
+[ 2013-09-17T10:13:44+08:00 ] 0.0.0.0 /DM/index.php/Index/find
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+
+[ 2013-09-17T10:13:48+08:00 ] 0.0.0.0 /DM/index.php/Index/find/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+
+[ 2013-09-17T10:14:03+08:00 ] 0.0.0.0 /DM/index.php/Index/find/id/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+
+[ 2013-09-17T10:14:14+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000280s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+
+[ 2013-09-17T10:14:17+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+
+[ 2013-09-17T10:16:41+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000338s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] Undefined variable: User /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 22 行.
+
+[ 2013-09-17T10:17:28+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: User /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 22 行.
+
+[ 2013-09-17T10:17:29+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Undefined variable: User /Applications/MAMP/htdocs/DM/Lib/Action/IndexAction.class.php 第 22 行.
+
+[ 2013-09-17T10:24:54+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000305s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002535s ]
+SQL: SELECT * FROM `think_user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.000305s ]
+
+[ 2013-09-17T10:25:11+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002903s ]
+SQL: SELECT * FROM `think_user` WHERE ( id = "3" ) LIMIT 1   [ RunTime:0.000455s ]
+
+[ 2013-09-17T10:37:41+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002332s ]
+SQL: SELECT * FROM `think_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.000257s ]
+
+[ 2013-09-17T10:37:51+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002317s ]
+SQL: SELECT * FROM `think_user` WHERE ( id = $id ) LIMIT 1   [ RunTime:0.000176s ]
+ERR: 1054:Unknown column '$id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_user` WHERE ( id = $id ) LIMIT 1  
+
+[ 2013-09-17T10:38:13+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002295s ]
+SQL: SELECT * FROM `think_user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.000264s ]
+
+[ 2013-09-17T10:38:22+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000236s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.033365s ]
+SQL: SELECT * FROM `think_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.000372s ]
+
+[ 2013-09-17T10:39:17+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002752s ]
+SQL: SELECT * FROM `think_user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.000310s ]
+
+[ 2013-09-17T10:48:53+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002102s ]
+SQL: SELECT * FROM `think_user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.000243s ]
+
+[ 2013-09-17T10:48:55+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001878s ]
+SQL: SELECT * FROM `think_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.000375s ]
+
+[ 2013-09-17T10:50:41+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001900s ]
+SQL: SELECT `username` FROM `think_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.000245s ]
+
+[ 2013-09-17T11:07:59+08:00 ] 0.0.0.0 /DM/index.php/Index/find/id/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013331s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.046354s ]
+SQL: SELECT `username` FROM `think_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.000380s ]
+
+[ 2013-09-17T11:10:03+08:00 ] 0.0.0.0 /DM/index.php/Index/create/username/neekychan/password/123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.019196s ]
+
+[ 2013-09-17T11:10:14+08:00 ] 0.0.0.0 /DM/index.php/Index/create/find/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000232s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002367s ]
+
+[ 2013-09-17T11:10:20+08:00 ] 0.0.0.0 /DM/index.php/Index/create/find/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.160800s ]
+
+[ 2013-09-17T11:19:55+08:00 ] 0.0.0.0 /DM/index.php/Index/create/find/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002519s ]
+SQL: INSERT INTO `think_user` (`username`,`password`) VALUES ('','') [ RunTime:0.000701s ]
+
+[ 2013-09-17T11:19:59+08:00 ] 0.0.0.0 /DM/index.php/Index/create/find/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001911s ]
+SQL: INSERT INTO `think_user` (`username`,`password`) VALUES ('','') [ RunTime:0.000666s ]
+
+[ 2013-09-17T11:20:00+08:00 ] 0.0.0.0 /DM/index.php/Index/create/username/neekychan/password/123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001588s ]
+SQL: INSERT INTO `think_user` (`username`,`password`) VALUES ('neekychan','123456') [ RunTime:0.000445s ]
+
+[ 2013-09-17T11:20:02+08:00 ] 0.0.0.0 /DM/index.php/Index/create/username/neekychan/password/123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002768s ]
+SQL: INSERT INTO `think_user` (`username`,`password`) VALUES ('neekychan','123456') [ RunTime:0.000693s ]
+
+[ 2013-09-17T11:21:31+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.092556s ]
+SQL: SELECT `username` FROM `think_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.000374s ]
+
+[ 2013-09-17T11:21:34+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.050583s ]
+SQL: SELECT `username` FROM `think_user` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.000347s ]
+
+[ 2013-09-17T11:25:01+08:00 ] 0.0.0.0 /DM/index.php/Index/delete/?id=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002192s ]
+SQL: DELETE FROM `think_user` WHERE ( id = 2 ) [ RunTime:0.000826s ]
+
+[ 2013-09-17T11:28:03+08:00 ] 0.0.0.0 /DM/index.php/Index/delete/?id=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002097s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002281s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.001823s ]
+SQL: DELETE FROM `think_user` WHERE ( id = 2 ) [ RunTime:0.000236s ]
+
+[ 2013-09-17T11:38:35+08:00 ] 0.0.0.0 /DM/index.php/Index/update/id/1/username/Administrator
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.011817s ]
+SQL: UPDATE `think_user` SET `username`='Administrator' WHERE ( id = 1 ) [ RunTime:0.015813s ]
+
+[ 2013-09-17T14:13:41+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002383s ]
+SQL: SELECT `username` FROM `think_user` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.000326s ]
+
+[ 2013-09-17T14:13:44+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002088s ]
+SQL: SELECT `username` FROM `think_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.000294s ]
+
+[ 2013-09-17T19:18:43+08:00 ] 0.0.0.0 /DM/index.php/Index/find/?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002080s ]
+SQL: SELECT `username` FROM `think_user` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000326s ]
+
