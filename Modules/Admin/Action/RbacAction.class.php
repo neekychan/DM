@@ -1,7 +1,9 @@
 <?php 
 	class RbacAction extends Action {
 		public function index() {
-
+			//field语法，true则不查询返回指定字段
+			$this->users = D('UserRelation')->field('password',true)->relation(true)->select();
+			$this->display();
 		}
 
 		public function role() {
@@ -17,7 +19,37 @@
 		}
 
 		public function addUser() {
+			//将角色表数据遍历出来，在添加用户的时候可以分配角色。
+			$this->role = M('role')->select();
+			$this->display();
+		}
 
+		public function addUserHandler() {
+			$data = I('post.');
+			$data['lock'] = 0;
+
+			$user = array(
+				'username' => I('username'),
+				'password' => I('password','','md5'),
+				'logintime' => time(),
+				'loginip' => get_client_ip()
+				);
+
+			//在新用户信息被成功写入数据库后，往role_user表插入角色信息。
+			if($uid = M('user')->add($user)) {
+				$role = array();
+				foreach ($_POST['role_id'] as $v) {
+					$role[] = array(
+						'role_id' => $v,
+						'user_id' => $uid
+						);
+				}
+
+				M('role_user')->addAll($role);
+				$this->success('新用户添加成功', U('Admin/Rbac/index'));
+			} else {
+				$this->error('添加用户失败', U('Admin/Rbac/addUser'));
+			}
 		}
 
 		public function addRole() {
@@ -67,7 +99,12 @@
 		public function access() {
 			$rid = I('rid',0,'intval');
 
-			$this->node = node_merge(M('node')->order('sort')->select());
+			//原有已配置的权限。
+			$access = M('access')->where(array('role_id' => $rid))->getField('node_id',true);
+
+			$this->node = node_merge(M('node')->order('sort')->select(),$access);
+
+
 			//dump($this->node);
 			$this->rid = $rid;
 			$this->display();
@@ -76,7 +113,9 @@
 		public function setAccess() {
 			//dump($_POST);
 			$rid = I('post.rid',0,'intval');
+
 			$data = array();
+
 			foreach (I('post.access') as $v) {
 				$tmp = explode('_', $v);
 				$data[] = array(
