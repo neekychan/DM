@@ -1,0 +1,39 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/Public.css">
+</head>
+<body>
+	<table class='table'>
+		<tr>
+			<th>用户ID</th>
+			<th>用户帐号</th>
+			<th>最后登录时间</th>
+			<th>最后登录IP</th>
+			<th>用户状态</th>
+			<th>用户组别</th>
+			<th>操作</th>
+		</tr>
+		<foreach name='users' item='v'>
+			<tr>
+				<td>{$v.id}</td>
+				<td>{$v.username}</td>
+				<td>{$v.logintime|date='y-m-d H:i',###}</td>
+				<td>{$v.loginip}</td>
+				<td>
+					<if condition="$v['lock']">
+						已锁定
+						<else/>
+						未锁定
+					</if>
+				</td>
+				<td>
+					<foreach name="v.role" item='r'>
+						<p>{$r['name']}|{$r['remark']}</p>
+					</foreach>
+				</td>
+				<td>操作</td>
+			</tr>
+		</foreach>
+	</table>
+</body>
+</html>

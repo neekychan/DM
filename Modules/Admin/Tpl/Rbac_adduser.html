@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/Public.css">
+	<script type="text/javascript" src='__PUBLIC__/Js/jquery.min.js'></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#addNewRole').click(function(){
+				var $div = $('#userRole').clone();
+				$div.find('input').remove();
+				$('#userRole').after($div);
+			});
+		});
+	</script>
+</head>
+<body>
+	<form action="{:U('Admin/Rbac/addUserHandler')}" method='post'>
+		<table class='table'>
+			<tr>
+				<th colspan='2'>添加用户</th>
+			</tr>
+			<tr>
+				<td>用户帐号:</td>
+				<td><input type='text' name='username'></td>
+			</tr>
+			<tr>
+				<td>用户密码:</td>
+				<td><input type='password' name='password'></td>
+			</tr>
+			<tr id='userRole'>
+				<td>用户角色:</td>
+				<td>
+					<select name="role_id[]">
+						<foreach name='role' item='v'>
+							<option value="{$v['id']}">{$v['name']}|{$v['remark']}</option>
+						</foreach>
+					</select>
+					<input id='addNewRole' type='button' value='增加角色'/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan='2' align='center'><input type='submit' value='提交'></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
