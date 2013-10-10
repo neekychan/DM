@@ -1,5 +1,5 @@
 <?php 
-	class RbacAction extends Action {
+	class RbacAction extends CommonAction {
 		public function index() {
 			//field语法，true则不查询返回指定字段
 			$this->users = D('UserRelation')->field('password',true)->relation(true)->select();
@@ -104,8 +104,6 @@
 
 			$this->node = node_merge(M('node')->order('sort')->select(),$access);
 
-
-			//dump($this->node);
 			$this->rid = $rid;
 			$this->display();
 		}

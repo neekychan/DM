@@ -15,6 +15,16 @@
 			$("input[level=2]").click(function(){
 				var inputs = $(this).parents('dl').find('input');
 				$(this).attr('checked') ? inputs.attr('checked','checked') : inputs.removeAttr('checked');
+				var level1_input = $(this).parents('.app').find('input[level=1]');
+				level1_input.attr('checked','checked');
+			});
+
+			$("input[level=3]").click(function(){
+				//当选择子项时父项也要同时选中。否则无法形成层级关系。
+				var level1_input = $(this).parents('.app').find('input[level=1]');
+				var level2_input = $(this).parents('.app').find('input[level=2]');
+				level1_input.attr('checked','checked');
+				level2_input.attr('checked','checked');
 			});
 
 		});
